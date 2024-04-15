@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Scraper" Height="450" Width="800">
+    <Grid>
+        <Button Content="Get pasta" HorizontalAlignment="Left" Margin="344,136,0,0" VerticalAlignment="Top" Height="34" Width="88" Click="Button_Click"/>
+        <RichTextBox x:Name ="myRTB1" Margin="68,60,93,320">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="Pasta here"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button Content="Unique Tags" HorizontalAlignment="Left" Margin="331,271,0,0" VerticalAlignment="Top" Height="49" Width="97" Click="Button_Click_1"/>
+        <Button Content="All Tags" HorizontalAlignment="Left" Margin="504,271,0,0" VerticalAlignment="Top" Height="58" Width="79" Click="Button_Click_2"/>
+    </Grid>
+</Window>
